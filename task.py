@@ -1,4 +1,5 @@
 import requests
+import sys
 from datetime import datetime
 
 def get_bitcoin_price():
@@ -9,3 +10,4 @@ def get_bitcoin_price():
 if __name__ == "__main__":
     print(f"Running script at {datetime.now()}")
     get_bitcoin_price()
+    sys.stdout.flush()
