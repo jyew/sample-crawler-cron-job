@@ -5,6 +5,8 @@ import logging
 import pprint
 from datetime import datetime
 
+print('Executing task.py')
+
 log = logging.getLogger("my-logger")
 
 def get_bitcoin_price():
